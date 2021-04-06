@@ -4,17 +4,17 @@ body {
     margin: auto;
 }
 
-body main {
+body 
+
+#header {
+    align-content: center;
+}
+
+main {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
 }
-
-header {
-    align-content: center;
-}
-
-
 
 footer {
     align-content: center;
