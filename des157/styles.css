@@ -4,6 +4,11 @@ body {
     margin: auto;
 }
 
+main {
+    display: flex;
+    list-style-type: none;
+}
+
 #banner {
     height: 250px;
     width: 1100px;
