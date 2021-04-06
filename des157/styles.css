@@ -4,27 +4,30 @@ body {
     margin: auto;
 }
 
-body 
-
-#header {
+header {
     align-content: center;
+    text-align: center;
 }
 
 main {
     display: flex;
-    list-style-type: none;
+
     justify-content: space-evenly;
 }
 
+main ul {
+    list-style: none;
+}
+
 footer {
-    align-content: center;
-    margin: auto;
+    text-align: center;
+
 }
 
 #banner {
     height: 250px;
     width: 1100px;
-    justify-items: center;
+    background-color: red;
     margin: auto;
 }
 
