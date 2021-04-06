@@ -23,7 +23,7 @@ ul {
 }
 
 #banner1 {
-    width: 333px;
+    width: 367px;
     background-color: red;
     transition: width 2s;
 }
@@ -31,16 +31,16 @@ ul {
     width: 1100px;
 }
 #banner2 {
-    background-color: green;
-    width: 333px;
+    background-color: yellow;
+    width: 367px;
     transition: width 2s;
 }
 #banner2:hover {
     width: 1100px;
 }
 #banner3 {
-    background-color: blue;
-    width: 333px;
+    background-color: orangered;
+    width: 367px;
     transition: width 2s;
 }
 #banner3:hover {
