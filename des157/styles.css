@@ -25,3 +25,7 @@ footer {
     justify-self: center;
     margin: auto;
 }
+
+#wrapper {
+    justify-items: center;
+}
