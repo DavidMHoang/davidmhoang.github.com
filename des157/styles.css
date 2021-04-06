@@ -50,3 +50,11 @@ ul {
 #wrapper {
     text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: 1366px;
+        max-height: 768px;
+        margin: auto;
+    }
+}
