@@ -23,3 +23,7 @@ ul {
 #wrapper {
     text-align: center;
 }
+
+.column {
+    text-align: left;
+}
