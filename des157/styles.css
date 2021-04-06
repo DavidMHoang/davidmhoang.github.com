@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
+header {
+    justify-content: center;
+}
+
 main {
     display: flex;
     list-style-type: none;
