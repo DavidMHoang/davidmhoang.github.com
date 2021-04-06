@@ -2,6 +2,7 @@ body {
     max-width: 1366px;
     max-height: 768px;
     margin: auto;
+    justify-content: center;
 }
 
 main {
