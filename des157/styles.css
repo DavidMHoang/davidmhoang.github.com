@@ -4,11 +4,6 @@ body {
     margin: auto;
 }
 
-header {
-    align-content: center;
-    text-align: center;
-}
-
 main {
     display: flex;
     justify-content: space-evenly;
@@ -16,10 +11,6 @@ main {
 
 ul {
     list-style: none;
-}
-
-footer {
-    text-align: center;
 }
 
 #banner {
@@ -30,5 +21,5 @@ footer {
 }
 
 #wrapper {
-    justify-items: center;
+    text-align: center;
 }
