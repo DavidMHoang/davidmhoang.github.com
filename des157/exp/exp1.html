@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+</head>
+<body>
+    
+    <h1>Experiment 1</h1>
+
+    <script>
+        // This program prints Fizz for numbers that are divisible by 3 and Buzz for numbers
+        // that are divisble by 5, but prints Fizz for numbers both divisble by 3 and 5
+        for (var i = 1; i <= 100; i++) {
+            if(i%3 == 0) {
+                console.log("Fizz");
+            } else if (i%5 == 0) {
+                console.log("Buzz");
+            } else {
+                console.log(i);
+            }
+        }
+
+        // This version prints Buzz for all numbers divisble by 5, including ones that are divisible
+        // by 3
+        for (var i = 1; i <= 100; i++) {
+            if(i%5 == 0) {
+                console.log("Buzz");
+            } else if (i%3 == 0) {
+                console.log("Fizz");
+            } else {
+                console.log(i);
+            }
+        }
+    </script>
+</body>
+</html>
