@@ -9,5 +9,10 @@ header h1 {
 }
 
 article {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+#wrapper {
+    text-align: center;
 }
