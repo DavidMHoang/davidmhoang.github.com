@@ -3,3 +3,7 @@ body {
     max-height: 768px;
     margin: auto;
 }
+
+#wrapper {
+    text-align: center;
+}
