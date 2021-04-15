@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
-#wrapper {
+header {
     text-align: center;
+}
+
+article {
+    font-size: 20px;
 }
