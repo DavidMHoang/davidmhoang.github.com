@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    
+    <h1>Experiment 2</h1>
+
+    Open up console to see Results!
+
+    <script>
+
+        /*
+        
+        This uses Exp 1 and gives the user the option to 
+        input a number and outputs fizz and buzz from 
+        instructions in exp 1. An addition to it is adding
+        a random fruit when it reaches a fizz or buzz 
+        
+        */
+
+        var userInput = prompt("Input a number", "");
+        var food = ["apple","lemon","lime","banana","peach"];
+        
+        function fizzBuzz(num, gift) {
+            for (var i = 1; i <= userInput; i++) {
+                var randomFood = gift[refactoredRandomInt(0, gift.length-1)];
+                if (userInput == null || userInput == '') {
+                    console.log("ERROR: You did not enter a number");
+                } else if (i%3 == 0) {
+                    console.log("Fizz");
+                    console.log(`Here is a random ${randomFood}`);
+                } else if (i%5 == 0) {
+                    console.log("Buzz");
+                    console.log(`Here is a random ${randomFood}`);
+                } else {
+                    console.log(i);
+                }
+            }
+        }
+
+        function refactoredRandomInt(min, max) {
+            return Math.floor((max - min + 1) * Math.random()) + min;
+        }
+
+        fizzBuzz(userInput, food);
+
+    </script>
+</body>
+</html>
