@@ -3,3 +3,16 @@ body {
     max-height: 768px;
     margin: auto;
 }
+
+header h1 {
+    text-align: center;
+}
+
+article {
+    font-size: 18px;
+    font-family: serif;
+}
+
+#wrapper {
+    text-align: center;
+}
