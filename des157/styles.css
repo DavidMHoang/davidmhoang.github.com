@@ -84,17 +84,17 @@ ul {
     text-align: center;
 }
 
-#bannerDoge {
+#bannerTimer {
     width: 100px;
     height: 100px;
     background: red;
     background-color: rgb(250, 235, 235);
     position: relative;
-    animation: bannerDoge 3s infinite;
+    animation: bannerTimer 3s infinite;
     animation-direction: infinite alternate;
 }
   
-@keyframes bannerDoge {
+@keyframes bannerTimer {
     0%   {background: rgb(250, 235, 235); left: 0px; top: 0px;}
     25%  {background: rgb(250, 51, 51); left: 1010px; top: 0px;}
     50%  {background: rgb(250, 51, 51); left: 1010px; top: 150px;}
