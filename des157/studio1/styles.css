@@ -1,0 +1,77 @@
+body {
+    max-width: 1366px;
+    max-height: 768px;
+    padding: 25px;
+    margin: auto;
+    background-color: #674141;
+    align-content: 'center';
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    /* text-align: left; */
+    align-content: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#myform {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#wrapper {
+    align-content: center;
+    justify-content: center;
+}
+
+#centerView {
+    background-color: #F1F2B9;
+    align-content: center;
+    padding: 10px;
+}
+
+#firstName {
+    height: 30px;
+    width: 200px;
+}
+
+#lastName {
+    height: 30px;
+    width: 200px;
+
+}
+#animal {
+    height: 30px;
+    width: 150px;
+
+}
+#famous {
+    height: 30px;
+    width: 200px;
+
+}
+#prod {
+    height: 30px;
+    width: 200px;
+
+}
+
+#comp {
+    height: 30px;
+    width: 200px;
+
+}
+
+#submitButton {
+    justify-content: center;
+    align-self: center;
+    height: 50px;
+}

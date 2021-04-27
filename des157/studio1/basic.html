@@ -5,31 +5,72 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="script.js" defer></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+        <link href="./styles.css" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <h1>Build a Mad Lib Script</h1>
-        </header>
-        <main>
-            <form id="myform">
-                <label for="noun1">Provide a Noun</label>
-                <input type="text" id="noun1" required>
+    <body id="wrapper">
+        <section id="container">
+        <section id="centerView">
+            <header>
+                <h1>Build a Mad Lib Script</h1>
+            </header>
+            <main>
+                <form id="myform">
+                    <section id="centerView">
+                        <label for="firstName">First Name</label>
+                        <br>
+                        <input type="text" id="firstName" required>
+                    </section>
 
-                <label for="noun2">Provide another Noun</label>
-                <input type="text" id="noun2" required>
+                    <section id="centerView">
+                        <label for="lastName">Last Name</label>
+                        <br>
+                        <input type="text" id="lastName" required>
+                    </section>
 
-                <label for="adj">Provide an adjective</label>
-                <input type="text" id="adj">
+                    <section id="centerView">
+                        <label for="animal">Give an Animal</label>
+                        <br>
+                        <input type="text" id="animal" required>
+                    </section>
 
-                <label for="verb">Provide a Verb</label>
-                <input type="text" id="verb">
+                    <section id="centerView">
+                        <label for="famous">Give the name of someone Famous</label>
+                        <br>
+                        <input type="text" id="famous" required>
+                    </section>
 
-                <input type="submit" value="Send">
-            </form>
-            <article id="madlib"></article>
-        </main>
-        <footer>
+                    <section id="centerView">
+                        <label for="prod">Provide a name for a new Product</label>
+                        <br>
+                        <input type="text" id="prod">
+                    </section>
 
-        </footer>
+                    <section id="centerView">
+                        <label for="comp">Provide a name for a new Company</label>
+                        <br>
+                        <input type="text" id="comp">
+                    </section>
+
+                    <section id="submitButton">
+                        <input type="submit" value="Submit">
+                    </section>
+                </form>
+
+                <article id="madlib">
+                    <p id="story">
+                        
+                    </p>
+                </article>
+            </main>
+            <footer>
+                <A HREF="mailto:
+                &#100;&#097;&#118;&#101;&#109;&#104;&#111;&#097;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Email</A>
+                <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+            </footer>
+        </div>
+    </section>
     </body>
 </html>
