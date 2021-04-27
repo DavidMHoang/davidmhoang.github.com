@@ -1,23 +1,27 @@
 (function(){
-    var myForm = document.querySelector('#myForm');
-    var madlib = document.querySelector('#madlib');
+    const myForm = document.querySelector('#myForm');
+    const madlib = document.querySelector('#madlib');
+    const firstName = document.querySelector('#firstName').value;
+    const lastName = document.querySelector('#lastName').value;
+    const animal = document.querySelector('#animal').value;
+    const famousPerson = document.querySelector('#famous').value;
+    const product = document.querySelector('#prod').value;
+    const company = document.querySelector('#comp').value;
 
     myForm.addEventListener('submit', function(event) {
         event.preventDefault();
-        var noun1 = document.querySelector('#noun1').value;
-        var noun2 = document.querySelector('#noun2').value;
-        var adj = document.querySelector('#adj').value;
-        var verb = document.querySelector('#verb').value;
+
+    console.log(firstName);
 
         var formData = document.querySelectorAll("input[type=text]");
         for (var eachField of formData) {
             eachField.value = "";
         }
-
+        
         var myText;
 
-        if(noun1 && noun2 && adj && verb) {
-            myText = `Here are the words: ${noun1}, ${noun2}, ${adj}, ${verb}`;
+        if(firstName && lastName && animal && famousPerson && product && company) {
+            myText = `CONGRATULATIONS to ${firstName} ${lastName} with a(n) ${animal} for collaborating with starting a new Company called ${company} with ${famousPerson} selling ${product}`
         } else {
             myText = "Please give me words so I can make your Mad Lib!";
         }
