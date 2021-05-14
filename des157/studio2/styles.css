@@ -1,0 +1,39 @@
+body {
+    max-width: 1366px;
+    max-height: 768px;
+    padding: 25px;
+    margin: auto;
+    align-content: 'center';
+    background-image: './minecraft/open_chest.PNG';
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    /* text-align: left; */
+    align-content: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#myform {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#wrapper {
+    align-content: center;
+    justify-content: center;
+}
+
+#centerView {
+    background-color: #F1F2B9;
+    align-content: center;
+    padding: 10px;
+}
