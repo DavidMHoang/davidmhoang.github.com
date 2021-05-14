@@ -1,10 +1,9 @@
 body {
     max-width: 1366px;
     max-height: 768px;
-    padding: 25px;
     margin: auto;
     align-content: 'center';
-    background-image: './minecraft/open_chest.PNG';
+    background-color: rgb(100, 200, 172, .3);
 }
 
 header {
@@ -14,7 +13,7 @@ header {
 main {
     /* text-align: left; */
     align-content: center;
-    padding: 20px;
+    justify-content: center;
 }
 
 footer {
@@ -22,18 +21,101 @@ footer {
     padding-bottom: 10px;
 }
 
-#myform {
+#note {
     text-align: center;
-    justify-content: space-evenly;
 }
 
-#wrapper {
-    align-content: center;
-    justify-content: center;
+#chestBackground {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
-#centerView {
-    background-color: #F1F2B9;
-    align-content: center;
-    padding: 10px;
+#chestImg {
+    position: relative;
+    height: 75%;
+    width: 75%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 100px;
 }
+
+
+#chestLayout {
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    top: 160px;
+    left: 480px;
+    z-index: 1;
+}
+
+#book1 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 198px;
+    left: 500px;
+    z-index: 2;
+}
+#book2 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 198px;
+    left: 543px;
+    z-index: 2;
+}
+#book3 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 198px;
+    left: 584px;
+    z-index: 2;
+}
+#book4 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 198px;
+    left: 627px;
+    z-index: 2;
+}
+
+#book5 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 340px;
+    left: 500px;
+    z-index: 2;
+}
+
+#book6 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 340px;
+    left: 543px;
+    z-index: 2;
+}
+#book7 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 340px;
+    left: 584px;
+    z-index: 2;
+}
+#book8 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 340px;
+    left: 627px;
+    z-index: 2;
+}
+
