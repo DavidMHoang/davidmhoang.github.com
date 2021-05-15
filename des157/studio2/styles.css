@@ -264,16 +264,18 @@ img {
 }
 
 .modal-content img{
-    position: absolute;
+    position: relative;
     z-index: 3;
-    top: 180px;
-    left: 720px;
-    height: 25%;
-    width: 25%;
+    top: 0;
+    left: 0;
+    height: 45%;
+    width: 45%;
 }
 
 #details{
-    position: absolute;
-    top: 400px;
-    left: 555px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 35px;
+    font-weight: bold;
 }
