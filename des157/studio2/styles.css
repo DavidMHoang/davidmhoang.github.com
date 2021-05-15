@@ -276,6 +276,7 @@ img {
     position: relative;
     top: 0;
     left: 0;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bold;
+    padding: 10px;
 }
