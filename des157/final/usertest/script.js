@@ -9,6 +9,7 @@
     const item2 = document.getElementById("item2");
     const item3 = document.getElementById("item3");
     const item4 = document.getElementById("item4");
+    const soundHandler = document.getElementById("soundControl");
 
     item3.addEventListener('click', function() {
         const modal = document.getElementById("item3Modal");
