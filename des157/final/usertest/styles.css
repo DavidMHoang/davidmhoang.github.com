@@ -3,7 +3,7 @@ body {
     max-height: 768px;
     margin: auto;
     align-content: 'center';
-    background-color: rgb(100, 200, 172, .3);
+    background-color: rgba(224, 139, 174, 0.3);
 }
 
 header {
@@ -25,7 +25,7 @@ footer {
     text-align: center;
 }
 
-#chestBackground {
+#backgroundImage {
     position: relative;
     top: 0;
     left: 0;
@@ -53,7 +53,7 @@ footer {
 }
 
 img {
-    position: absolute;
+    position: relative;
     height: 35px;
     width: 35px;
     top: 0;
@@ -61,71 +61,37 @@ img {
     z-index: 2;
 }
 
-#book1 {
-    position: absolute;
+#item1 {
+    position: relative;
     height: 35px;
     width: 35px;
-    top: 198px;
+    top: 0px;
     left: 500px;
     z-index: 2;
 }
 
-#book2 {
+#item2 {
     position: absolute;
     height: 35px;
     width: 35px;
-    top: 198px;
+    top: 0px;
     left: 543px;
     z-index: 2;
 }
 
-#book3 {
+#item3 {
     position: absolute;
     height: 35px;
     width: 35px;
-    top: 198px;
+    top: 0px;
     left: 584px;
     z-index: 2;
 }
-#book4 {
+#item4 {
     position: absolute;
     height: 35px;
     width: 35px;
-    top: 198px;
-    left: 627px;
-    z-index: 2;
-}
-
-#book5 {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    top: 340px;
-    left: 500px;
-    z-index: 2;
-}
-
-#book6 {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    top: 340px;
-    left: 543px;
-    z-index: 2;
-}
-#book7 {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    top: 340px;
-    left: 584px;
-    z-index: 2;
-}
-#book8 {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    top: 340px;
+    top: 0px;
     left: 627px;
     z-index: 2;
 }
@@ -142,7 +108,7 @@ img {
     text-align: center;
 }
 
-#book1:hover #descriptionOverlay {
+#item1:hover #descriptionOverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -154,7 +120,7 @@ img {
     transition: 100s ease-in;
     z-index: 2;
 }
-#book2:hover #descriptionOverlay {
+#item2:hover #descriptionOverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -166,7 +132,7 @@ img {
     transition: 100s ease-in;
     z-index: 2;
 }
-#book3:hover #descriptionOverlay {
+#item3:hover #descriptionOverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -178,7 +144,7 @@ img {
     transition: 100s ease-in;
     z-index: 2;
 }
-#book4:hover #descriptionOverlay {
+#item4:hover #descriptionOverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -188,56 +154,6 @@ img {
     width: 100%;
     opacity: 0;
     transition: 100s ease-in;
-    z-index: 2;
-}
-#book5:hover #descriptionOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 100s ease-in;
-    z-index: 2;
-}
-#book6:hover #descriptionOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 100s ease-in;
-    z-index: 2;
-}
-#book7:hover #descriptionOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 100s ease-in;
-    background-color: #008CBA;
-    z-index: 2;
-}
-#book8:hover #descriptionOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 100s ease-in;
-    background-color: #008CBA;
     z-index: 2;
 }
 
