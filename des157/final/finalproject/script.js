@@ -4,7 +4,6 @@
 
     const windSound = new Audio('./media/wind.wav');
 
-    alert("Hello \n Please test the scrolling to see if it will follow. Does it scroll and follow? Is this a good idea? \n Please test tapping on an icon. Do you think this is helpful? Do you think it can be improved? \n Please test the sound if it is working. Is the sound needed or make a difference?");
     const item1 = document.getElementById("item1");
     const item2 = document.getElementById("item2");
     const item3 = document.getElementById("item3");

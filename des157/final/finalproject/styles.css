@@ -201,3 +201,99 @@ img {
     font-weight: bold;
     padding: 10px;
 }
+
+#cb1 {
+    bottom: 55%;
+    position: relative;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 6s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
+
+#cb2 {
+    bottom: 38%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 3s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
+
+#cb3 {
+    bottom: 23%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 8s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
+
+#cb4 {
+    bottom: 15%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 5s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
+
+#cb5 {
+    bottom: 5%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 10s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
+
+#cb6 {
+    bottom: -25%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 6s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+    }
+  }
