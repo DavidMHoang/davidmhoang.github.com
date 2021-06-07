@@ -17,8 +17,14 @@ main {
 }
 
 footer {
+    position: relative;
     text-align: center;
     padding-bottom: 10px;
+    top: 2000px;
+}
+
+#sounds {
+    text-align: center;
 }
 
 #note {
@@ -54,8 +60,8 @@ footer {
 
 img {
     position: relative;
-    height: 35px;
-    width: 35px;
+    height: 60px;
+    width: 60px;
     top: 0;
     left: 0;
     z-index: 2;
@@ -66,33 +72,33 @@ img {
     height: 35px;
     width: 35px;
     top: 0px;
-    left: 500px;
+    left: 600px;
     z-index: 2;
 }
 
 #item2 {
-    position: absolute;
+    position: relative;
     height: 35px;
     width: 35px;
-    top: 0px;
-    left: 543px;
+    top: 1800px;
+    left: 643px;
     z-index: 2;
 }
 
 #item3 {
-    position: absolute;
+    position: relative;
     height: 35px;
     width: 35px;
-    top: 0px;
-    left: 584px;
+    top: 1000px;
+    left: 684px;
     z-index: 2;
 }
 #item4 {
-    position: absolute;
+    position: relative;
     height: 35px;
     width: 35px;
-    top: 0px;
-    left: 627px;
+    top: 600px;
+    left: 727px;
     z-index: 2;
 }
 
@@ -100,8 +106,8 @@ img {
     color: white;
     font-size: 9px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25px;
+    left: 25px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
