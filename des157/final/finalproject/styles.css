@@ -215,6 +215,7 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
 
@@ -223,7 +224,7 @@ img {
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 6s;
   }
   @-webkit-keyframes blow {
     0% {
@@ -231,6 +232,7 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
 
@@ -239,7 +241,7 @@ img {
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 4s;
   }
   @-webkit-keyframes blow {
     0% {
@@ -247,6 +249,7 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
 
@@ -263,6 +266,7 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
 
@@ -271,7 +275,7 @@ img {
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 6s;
   }
   @-webkit-keyframes blow {
     0% {
@@ -279,6 +283,7 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
 
@@ -295,5 +300,6 @@ img {
     }
     100% {
       left: -50%;
+      transform: rotate(1080deg);
     }
   }
