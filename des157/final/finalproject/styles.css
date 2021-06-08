@@ -203,7 +203,7 @@ img {
 }
 
 #cb1 {
-    bottom: 55%;
+    bottom: -80%;
     position: relative;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
@@ -220,25 +220,8 @@ img {
   }
 
 #cb2 {
-    bottom: 38%;
-    position: absolute;
-    -webkit-animation: linear infinite;
-    -webkit-animation-name: blow;
-    -webkit-animation-duration: 6s;
-  }
-  @-webkit-keyframes blow {
-    0% {
-      left: 120%;
-    }
-    100% {
-      left: -50%;
-      transform: rotate(1080deg);
-    }
-  }
-
-#cb3 {
-    bottom: 23%;
-    position: absolute;
+    bottom: -129%;
+    position: relative;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
     -webkit-animation-duration: 4s;
@@ -253,8 +236,8 @@ img {
     }
   }
 
-#cb4 {
-    bottom: 15%;
+#cb3 {
+    bottom: -267%;
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
@@ -270,12 +253,29 @@ img {
     }
   }
 
-#cb5 {
-    bottom: 5%;
+#cb4 {
+    bottom: -100%;
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 3s;
+  }
+  @-webkit-keyframes blow {
+    0% {
+      left: 120%;
+    }
+    100% {
+      left: -50%;
+      transform: rotate(1080deg);
+    }
+  }
+
+#cb5 {
+    bottom: -300%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: blow;
+    -webkit-animation-duration: 7s;
   }
   @-webkit-keyframes blow {
     0% {
@@ -288,11 +288,11 @@ img {
   }
 
 #cb6 {
-    bottom: -25%;
+    bottom: -500%;
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: blow;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 2s;
   }
   @-webkit-keyframes blow {
     0% {
